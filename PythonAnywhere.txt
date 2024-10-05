@@ -1,0 +1,21 @@
+
+0. In your settings.py set :- ALLOWED_HOSTS = ['*']
+
+1. PythonAnywhere signup
+
+2. Go to Bash(Terminal):-
+$ git clone <repo_url>
+
+3. Create Virtual Env:-
+$ mkvirtualenv --python=/usr/bin/python3.9 venv
+
+4. Install all required dependencies:-
+$ pip install -r requirements.txt
+
+5. Set up WebApp
+	Path for:- Source folder, working directory, virtualenv, and for Images:-  static, media 
+	Enable HTTPS
+
+6. Reload the webapp
+
+
