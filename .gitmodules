@@ -1,0 +1,3 @@
+[submodule "WatchShop"]
+	path = WatchShop
+	url = https://github.com/alasekirti/django_project.git
