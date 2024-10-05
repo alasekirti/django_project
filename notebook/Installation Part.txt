@@ -1,0 +1,23 @@
+#Installation Part
+
+$ python -m pip install django-extensions
+$ python -m pip install notebook==6.5.6
+
+# add installed extensions to installedApps  in settings.py
+
+INSTALLED_APPS = [
+        'django_extensions',
+]
+
+$ cd notebook
+$ python -m ..\manage.py shell_plus notebook
+
+
+
+#setup notebook
+
+import django
+import os
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'rest.settings')
+os.environ['DJANGO_ALLOW_ASYNC_UNSAFE'] = 'true'
+django.setup()
